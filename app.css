@@ -82,3 +82,141 @@ html
 	display: none;
 
 }
+.header {
+	background-image: url('icons/icon3.png');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+  }
+  .overlay {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.507);
+  }
+  .description {
+	left: 50%;
+	position: absolute;
+	top: 20%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+  }
+  
+  .description h1 {
+	color: rgb(16, 192, 16);
+	text-shadow: 0 0 3px #FF0000,  0 0 5px #0000FF;
+  }
+  
+  .description p {
+	color: rgb(16, 192, 16);
+	text-shadow: 0 0 3px #FF0000,  0 0 5px #0000FF;
+	font-size: 1.3rem;
+	line-height: 1.5;
+  }
+
+  .form-text-text-muted{
+	color: rgb(0, 0, 0);
+  }
+
+  .loginform1{
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+  }
+  .loginform1 .form-control,
+.loginform1 input {
+    border-radius: 100;
+}
+
+.loginform1 .btn {
+  background-color: #589b37;
+  border: 1px solid #589b37;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.loginform1 .btn:hover {
+  background-color: #3f7425;
+  border: 1px solid #3f7425;
+}
+
+.loginform1{
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: white;
+	border-radius: 10;
+	border: 10px;
+	border-color: yellowgreen;
+	border-style: groove;
+}
+.containerfp{
+	align-items: center;
+}
+
+.signupform1{
+	left: 50%;
+	position: absolute;
+	top: 48%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+
+.signupform1 .form-control,
+.signupform1 input {
+    border-radius: 100;
+}
+
+.signupform1{
+	display: none;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: white;
+	border: 10px ;
+	border-color: yellowgreen;
+	border-radius: 100;
+	border-style: groove;
+	background-color: rgba(255, 255, 255, 0.85)
+}
+
+.signupform1 .btn {
+	background-color: #589b37;
+	border: 1px solid #589b37;
+	color: #fff;
+	margin-top: 20px;
+  }
+  
+  .signupform1 .btn:hover {
+	background-color:  #3f7425;
+	border: 1px solid #3f7425;
+  }
+
+  .page-footer {
+	background-color: #222;
+	color: #ccc;
+	position:fixed;
+	height:160px;
+    left:0px;
+    bottom:0px;
+    width:100%;
+	padding: 60px 0 30px;
+	border:5px solid #589b37;
+	border-bottom: none;
+  }
+  
+  .footer-copyright {
+	color: #666;
+	padding: 40px 0;
+  }
+
+  .pricing-button{
+	 font-weight: bold;
+	 text-transform: uppercase;
+  }

@@ -1,8 +1,21 @@
-function openForm()
+function opensignupForm()
 {
-    document.getElementById("Sign-Up").style.display=block();
+    document.getElementById("sign-up-pop").style.display="block";
 }
-function closeForm()
+function closesignupForm()
 {
-    document.getElementById("Sign-Up").style.display=none();
+    document.getElementById("sign-up-pop").style.display=none();
 }
+
+$(document).ready(function(){
+    $('.header').height($(window).height());
+  })
+
+// Data Picker Initialization
+//$('.datepicker').datepicker();
+
+$(document).ready(function () {
+    $('#date-picker-example').datepicker({
+        format: "dd/mm/yyyy"
+    });
+});
